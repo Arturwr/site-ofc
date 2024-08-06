@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>
+        <b></b><i>Formulário Aqui</i></b>
+    </h1>
+
+          <hr>
+
+    <a href="part2.html" target="_blank">Ir à pagina inicial</a>
+
+    <br><br>
+
+    <form>
+          <!-- LEGENDA PARA NOME -->
+        <label for="campo_nome">Nome:</label>
+          <!-- CAMPO INPUT DO TYPE TEXT -->
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required> <br><br>
+
+          <!--LEGENDA PARA SOBRENOME-->
+        <label for="campo_sobrenome">Sobrenome:</label>
+          <!--CAMPO INPUT DO TYPE TEXT-->
+        <input id="campo_sobrenome" type="text" placeholder="Digite seu sobrenome aqui" required> <br><br>
+
+          <!--LEGENDA PARA EMAIL-->
+        <label for="campo_email">Email</label>
+          <!--CAMPO INPUT DO TYPE EMAIL-->
+        <input id="campo_email" type="email" placeholder="Digite seu email" required> <br><br>
+
+          <!--LEGENDA PARA SENHA-->
+        <label for="campo_senha">Senha</label>
+          <!--CAMPO INPUT DO TYPE PASSWORD-->
+        <input id="campo_senha" type="password" placeholder="Digite uma senha" required> <br><br>
+
+        <h4>Animal de estimação</h4>
+        
+        <input type="radio" name="animal" value="gato" id="cat">
+        <label for="cat">gato</label><br>
+        <input type="radio" name="animal" value="cachorro" id="dog">
+        <label for="dog">cachorro</label><br>
+
+        <h4>Animal de estimação</h4>
+
+        <input type="checkbox" name="animal" value="cachorro" id="dog">
+        <label for="dog">cachorro</label><br>
+        <input type="checkbox" name="animal" value="gato" id="cat">
+        <label for="cat">gato</label><br><br>
+
+         <h4>Escolha uma cor</h4>
+            <select name="cores">
+            <option selected disabled value="Cor">Selecione uma cor</option>
+            <option value="azul">azul</option>
+            <option value="amarelo">amarelo</option>
+            <option value="verde">verde</option>
+         </select> <br> <br>
+
+         <h4>Digitee sua mensagem</h4>
+         <textarea placeholder="mensagem" cols="30" rows="10">Um texto de exemplo</textarea><br><br>
+
+           <!--CAMPO INPUT DO TYPE SUBMIT-->
+         <a href="index.html"><input id="campo_submit"type="submit" value="Enviar Formulário" required></a> <br><br>
+
+    
+
+    </form>
+    <form>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

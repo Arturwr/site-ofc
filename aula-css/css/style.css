@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    font-size: 35px 50px;
+    padding: 10px 100px 10px 100px;
+    margin: 10px 510px 10px 510px;
+    border: 1px solid;
+    border-radius: 45px;
+    color: black;
+    background-color: aliceblue;
+    font-family:fantasy;
+
+}
+
+
+a.botao1{
+    size: 50px;
+    background-color: rgb(93, 93, 93);
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    border: 5px solid rgb(72, 72, 72);
+    border-radius: 15px;
+    margin: 10px 200px 10px 680px;
+    size: 50px;
+}
+
+a.botao1:hover{
+    background-color:darkgray;
+}
